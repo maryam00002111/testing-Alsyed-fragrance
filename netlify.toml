@@ -1,0 +1,39 @@
+# ============================================================
+#  AL SYED FRAGRANCE — Netlify Configuration
+# ============================================================
+
+[build]
+  publish = "."        # Root folder is the published site
+
+# Redirect /admin to the CMS panel
+[[redirects]]
+  from = "/admin"
+  to   = "/admin/index.html"
+  status = 200
+
+  # Explicitly serve uploads folder
+[[redirects]]
+  from = "/uploads/*"
+  to   = "/uploads/:splat"
+  status = 200
+
+# Serve _data JSON files with correct content-type + no cache
+# so the frontend always gets fresh CMS data after every publish
+[[headers]]
+  for = "/_data/*"
+  [headers.values]
+    Content-Type  = "application/json"
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+# Security + cache headers for all pages
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options       = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+
+# Cache uploaded media (product images, logos) for 1 year
+[[headers]]
+  for = "/uploads/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
