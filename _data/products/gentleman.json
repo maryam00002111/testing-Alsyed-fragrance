@@ -1,0 +1,12 @@
+{
+  "category": "men",
+  "published": true,
+  "name": "Gentleman",
+  "extraCats": [
+    "women"
+  ],
+  "image": "/uploads/img-20260605-wa0005.jpg",
+  "price": 1650,
+  "price_50": 2800,
+  "description": "The Vibe: Clean, energetic, and highly sophisticated.\n\nThe Scent Journey: A lively introduction of bright citrus, juicy fruits, and fresh spicy notes creates an immediate wave of energy. The heart unfolds into a refined blend of aromatic lavender and clean herbal accords, which perfectly balances against a warm, comforting base of creamy vanilla and smooth woody notes.\n\nBest For: A versatile, day-to-night scent that feels both fresh and reassuringly warm."
+}
