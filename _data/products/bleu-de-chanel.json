@@ -1,0 +1,12 @@
+{
+  "category": "men",
+  "published": true,
+  "name": "Bleu de Chanel",
+  "extraCats": [
+    "new-arrival"
+  ],
+  "image": "/uploads/img-20260803-wa0004.jpg",
+  "description": "The Vibe: Timeless masculinity and effortless luxury.\n\nThe Scent Journey: A vibrant burst of fresh citrus and clean aromatic notes makes an immediate statement. The energy builds with a layer of crisp spices, melting into a sophisticated heart of warm amber and rich woods. A mysterious finish of subtle smoke and balsamic undertones leaves a smooth, powdery trail.\n\nBest For: Classic gentlemen looking for a refined, confident daily signature.",
+  "price": 1400,
+  "price_50": 2400
+}
