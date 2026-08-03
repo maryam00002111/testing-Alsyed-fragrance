@@ -1,0 +1,6 @@
+{
+  "enabled": false,
+  "amount": 250,
+  "label": "Delivery Charges",
+  "free_threshold": null
+}
