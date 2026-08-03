@@ -1,0 +1,24 @@
+{
+  "background_color": "#000000",
+  "text_color": "#C8A45A",
+  "speed": 20,
+  "messages": [
+    {
+      "enabled": true,
+      "text": "🇵🇰 Independence Sale • Up to 50% OFF"
+    },
+    {
+      "enabled": true,
+      "text": "✨ Premium Imported Inspired Fragrances"
+    },
+    {
+      "enabled": true,
+      "text": "🚚 Fast Delivery Across Pakistan"
+    },
+    {
+      "enabled": true,
+      "text": "🔥 Limited Time Offers • Shop Before They End"
+    }
+  ],
+  "enabled": true
+}
