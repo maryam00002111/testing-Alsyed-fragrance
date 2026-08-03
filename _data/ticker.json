@@ -5,19 +5,23 @@
   "messages": [
     {
       "enabled": true,
-      "text": "🇵🇰 Independence Sale • Up to 50% OFF"
+      "text": "🇵🇰 Independence Sale • Up to 50% OFF",
+      "link": "https://al-syed-fragrancee.netlify.app/#cat-bundle"
     },
     {
       "enabled": true,
-      "text": "✨ Premium Imported Inspired Fragrances"
+      "text": "✨ Premium Imported Inspired Fragrances",
+      "link": "https://al-syed-fragrancee.netlify.app/#cat-bundle"
     },
     {
       "enabled": true,
-      "text": "🚚 Fast Delivery Across Pakistan"
+      "text": "🚚 Fast Delivery Across Pakistan",
+      "link": "https://al-syed-fragrancee.netlify.app/#cat-bundle"
     },
     {
       "enabled": true,
-      "text": "🔥 Limited Time Offers • Shop Before They End"
+      "text": "🔥 Limited Time Offers • Shop Before They End",
+      "link": "https://al-syed-fragrancee.netlify.app/#cat-bundle"
     }
   ],
   "enabled": true
