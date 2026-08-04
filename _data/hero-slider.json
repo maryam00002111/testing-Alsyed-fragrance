@@ -1,3 +1,13 @@
 {
-  "slides": []
+  "slides": [
+    {
+      "media_type": "image",
+      "order": 1,
+      "enabled": true,
+      "media": "/uploads/file_000000007c188206a6e2230f6526475b.png",
+      "desktop_image": "/uploads/file_0000000058f48211a4ead073a0944a4d.png",
+      "tablet_image": "/uploads/img-20260804-wa0001.jpg",
+      "mobile_image": "/uploads/file_000000007c188206a6e2230f6526475b.png"
+    }
+  ]
 }
