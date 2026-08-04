@@ -1,22 +1,3 @@
 {
-  "slides": [
-    {
-      "media_type": "image",
-      "order": 1,
-      "enabled": true,
-      "media": "/uploads/img_20260804_011147.jpg"
-    },
-    {
-      "media_type": "image",
-      "order": 1,
-      "enabled": true,
-      "media": "/uploads/img_20260804_011203.jpg"
-    },
-    {
-      "media_type": "image",
-      "order": 1,
-      "enabled": true,
-      "media": "/uploads/img_20260804_011216.jpg"
-    }
-  ]
+  "slides": []
 }
