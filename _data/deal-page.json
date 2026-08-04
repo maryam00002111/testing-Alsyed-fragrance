@@ -3,7 +3,7 @@
   "enabled": true,
   "show_price": false,
   "required_count": 3,
-  "enable_50ml": true,
+  "enable_50ml": false,
   "deal_price": 0,
   "enable_30ml": true,
   "title": "Azadi Offer",
