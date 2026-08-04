@@ -2030,11 +2030,11 @@ function addToCart(item){
   updateCartUI();
 }
 function removeFromCart(id,size){
-  cart=cart.filter(c=>!(c.id===id&&c.selectedSize===size));
+  cart=cart.filter(c=>!(String(c.id)===String(id)&&c.selectedSize===size));
   updateCartUI();
 }
 function updateCartQty(id,size,delta){
-  const item=cart.find(c=>c.id===id&&c.selectedSize===size);
+  const item=cart.find(c=>String(c.id)===String(id)&&c.selectedSize===size);
   if(item){
     item.qty=Math.max(1,item.qty+delta);
     updateCartUI();
@@ -2076,7 +2076,7 @@ function renderCartItems(){
         </div>
         <div style="display:flex;align-items:center;justify-content:space-between">
           <div class="cart-item-actions">
-            <button class="cart-qty-btn" onclick="updateCartQty(${c.id},'${c.selectedSize}',-1)">−</button>
+            <button class="cart-qty-btn" onclick="updateCartQty('${c.id}','${c.selectedSize}',-1)">−</button>
             <span class="cart-qty-num">${c.qty}</span>
             <button class="cart-qty-btn" onclick="updateCartQty('${c.id}','${c.selectedSize}',1)">+</button>
           </div>
