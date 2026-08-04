@@ -1653,7 +1653,6 @@ function updateDealBar(){
 }
 
 // Both buttons reuse the EXISTING addToCart()/cart drawer/checkout flow — no new checkout system.
-function dealAddToCart(){
 function buildDealCartItem(){
   const d = window.DEAL_PAGE;
   const selectedProducts = products.filter(p=>dealSelectedIds.includes(p.id));
