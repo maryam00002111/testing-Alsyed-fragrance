@@ -8,6 +8,24 @@
       "desktop_image": "/uploads/file_0000000058f48211a4ead073a0944a4d.png",
       "tablet_image": "/uploads/img-20260804-wa0001.jpg",
       "mobile_image": "/uploads/file_000000007c188206a6e2230f6526475b.png"
+    },
+    {
+      "media_type": "image",
+      "order": 1,
+      "enabled": true,
+      "desktop_image": "/uploads/file_00000000626882089d268d41b9068a5e.png",
+      "tablet_image": "/uploads/img-20260804-wa0002.jpg",
+      "mobile_image": "/uploads/file_0000000023ec821198304879d711f69d.png",
+      "media": "/uploads/img-20260804-wa0002.jpg"
+    },
+    {
+      "media_type": "image",
+      "order": 1,
+      "enabled": true,
+      "media": "/uploads/img-20260804-wa0000.jpg",
+      "desktop_image": "/uploads/file_00000000d8a08211a1ceb99eb2426cc1.png",
+      "tablet_image": "/uploads/img-20260804-wa0000.jpg",
+      "mobile_image": "/uploads/file_0000000011788211b73506e37aae021d.png"
     }
   ]
 }
