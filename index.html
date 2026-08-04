@@ -1654,20 +1654,25 @@ function updateDealBar(){
 
 // Both buttons reuse the EXISTING addToCart()/cart drawer/checkout flow — no new checkout system.
 function dealAddToCart(){
+function buildDealCartItem(){
+  const d = window.DEAL_PAGE;
   const selectedProducts = products.filter(p=>dealSelectedIds.includes(p.id));
-  selectedProducts.forEach(p=>{
-    const price = currentDealSize==='50ml' && p.price50 ? p.price50 : p.price;
-    addToCart({...p, selectedSize:currentDealSize, price});
-  });
+  const comboId = 'deal-' + currentDealSize + '-' + dealSelectedIds.slice().sort((a,b)=>a-b).join('-');
+  return {
+    id: comboId,
+    name: (d && d.title) || 'Deal Bundle',
+    img: (d && d.image) || (selectedProducts[0] && selectedProducts[0].img) || '',
+    price: (d && Number(d.deal_price)) || 0,
+    selectedSize: currentDealSize
+  };
+}
+function dealAddToCart(){
+  addToCart(buildDealCartItem());
   openCart();
   showToast('Bundle added to cart');
 }
 function dealBuyNow(){
-  const selectedProducts = products.filter(p=>dealSelectedIds.includes(p.id));
-  selectedProducts.forEach(p=>{
-    const price = currentDealSize==='50ml' && p.price50 ? p.price50 : p.price;
-    addToCart({...p, selectedSize:currentDealSize, price});
-  });
+  addToCart(buildDealCartItem());
   openCart();
   if(!checkoutFormOpen) toggleCartCheckout();
 }
