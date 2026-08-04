@@ -1,0 +1,9 @@
+{
+  "enabled": false,
+  "code": "SAVE20",
+  "min_products": 2,
+  "percentage": 20,
+  "label": "20% OFF with coupon",
+  "start_date": "",
+  "end_date": ""
+}
