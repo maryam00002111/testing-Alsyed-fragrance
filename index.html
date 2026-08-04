@@ -1630,7 +1630,7 @@ function updateDealBar(){
   const required = (d && Number(d.required_count)) || 3;
   const count = dealSelectedIds.length;
   const selectedProducts = products.filter(p=>dealSelectedIds.includes(p.id));
-  const subtotal = selectedProducts.reduce((a,p)=> a + (currentDealSize==='50ml' && p.price50 ? p.price50 : p.price), 0);
+  const subtotal = (d && Number(d.deal_price)) || 0;
 
   const infoEl = document.getElementById('dealBarInfo');
   const totalEl = document.getElementById('dealBarTotal');
