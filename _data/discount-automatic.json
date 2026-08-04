@@ -1,8 +1,8 @@
 {
   "enabled": false,
   "min_products": 3,
-  "percentage": 35,
+  "percentage": 79,
   "label": "Buy Any 3 Perfumes & Get 35% OFF",
-  "start_date": "",
-  "end_date": ""
+  "start_date": "2026-08-04T09:00:00.000Z",
+  "end_date": "2026-08-14T18:59:00.000Z"
 }
