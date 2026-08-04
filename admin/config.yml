@@ -58,6 +58,19 @@ collections:
             widget: "string"
             default: "alsyedfragrance85@gmail.com"
 
+            - label: "Enable Hero Offer Button"
+            name: "hero_offer_enabled"
+            widget: "boolean"
+            default: false
+            hint: "Shows a second button below 'Explore Collection' in the Hero section. It always links to the Deals section — the destination cannot be changed from here."
+
+          - label: "Hero Offer Button Text"
+            name: "hero_offer_text"
+            widget: "string"
+            default: "Avail Azadi Offer"
+            required: false
+            hint: "Leave blank to use the default text 'Avail Azadi Offer'."
+
   - name: "hero"
     label: "🖼️ Hero / Cover Section"
     files:
